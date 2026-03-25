@@ -1,0 +1,15 @@
+Copyright (c) 2026 TheZaltren
+
+All rights reserved.
+
+This software and its source code are the exclusive property of TheZaltren.
+
+No part of this software may be copied, modified, distributed, sublicensed,
+or used in any form without explicit permission from the author.
+
+This includes the source code, compiled binaries, assets, and any related
+materials contained within this repository.
+
+The software is provided "as is", without warranty of any kind, express or
+implied. The author is not liable for any damages arising from the use of
+this software.
