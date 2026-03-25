@@ -43,10 +43,11 @@ displayName="${mod_name}" #mandatory
 
 # The authors of the mod, displayed in the mod UI (optional)
 #authors=""
-
+authors="TheZaltren"
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Example mod description.
+Adds cosmic themed materials, blocks, and progression systems to Minecraft
+\nThis Mod is Currently in Development.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
