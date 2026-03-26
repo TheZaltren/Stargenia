@@ -7,6 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.thezaltren.stargenia.Stargenia;
+import net.thezaltren.stargenia.block.ModBlocks;
 
 import java.util.function.Supplier;
 
@@ -20,6 +21,8 @@ public class ModCreativeModeTabs {
                     .displayItems(((itemDisplayParameters, output) -> {
                         //output.accept(ModItems.(Name of the Item); To add to the Stargenia Creative Tab
                        output.accept(ModItems.COSMIC_STAR);
+                        output.accept(ModBlocks.COSMIC_STAR_BLOCK);
+
 
                     })).build());
 
