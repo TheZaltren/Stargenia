@@ -4,7 +4,7 @@ name: Compatibility Issue
 about: Report a compatibility issue with another mod
 title: "[Compatibility]"
 labels: compatibility
----------------------
+---
 
 ### Minecraft Version
 

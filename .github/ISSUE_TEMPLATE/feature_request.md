@@ -4,7 +4,7 @@ name: Feature Request
 about: Suggest a new feature or addition for Stargenia
 title: "[Feature]"
 labels: enhancement
--------------------
+---
 
 ### Describe the Feature
 

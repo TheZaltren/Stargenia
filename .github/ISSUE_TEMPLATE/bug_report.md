@@ -4,8 +4,7 @@ name: Bug Report
 about: Report a bug or issue with Stargenia
 title: "[Bug]"
 labels: bug
------------
-
+---
 ### Minecraft Version
 
 (e.g. 1.20.1)
