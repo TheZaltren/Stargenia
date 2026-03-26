@@ -1,0 +1,44 @@
+package net.thezaltren.stargenia.block;
+
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.thezaltren.stargenia.Stargenia;
+import net.thezaltren.stargenia.item.ModItems;
+
+import java.util.function.Supplier;
+
+public class ModBlocks {
+
+    public static final DeferredRegister.Blocks BLOCKS =
+            DeferredRegister.createBlocks(Stargenia.MOD_ID);
+
+
+    //Must Create a public static final DeferredItem<Item> for each block added to the mod
+    //After DeferredItem<Item> the name of the block needs to match with the png name
+    // Inorder for the texture to be applied correctly to the block
+public static final DeferredBlock<Block> COSMIC_STAR_BLOCK = registerBlock("cosmic_star_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
+    //Create and Registers Blocks
+    private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
+        DeferredBlock<T> toReturn = BLOCKS.register(name, block);
+        registerBlockItem(name, toReturn);
+        return  toReturn;
+    }
+
+    private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+
+    }
+
+    public static void register(IEventBus eventBus) {
+        BLOCKS.register(eventBus);
+    }
+}

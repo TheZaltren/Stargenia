@@ -1,6 +1,8 @@
 {
 
-  "item.stargenia.cosmic_star": "Cosmic Star",
+  "item.stargenia.cosmic_star": "§1§dCosmic Star",
+
+  "block.stargenia.cosmic_star_block": "Cosmic Star Block",
 
   "creativetab.stargenia.stargenia_tab": "Stargenia"
 
