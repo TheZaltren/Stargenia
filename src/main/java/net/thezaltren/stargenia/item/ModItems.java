@@ -13,6 +13,8 @@ public class ModItems {
     // Inorder for the texture to be applied correctly to the item
     public static final DeferredItem<Item> COSMIC_STAR = ITEMS.register("cosmic_star",
             ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COSMIC_INGOT = ITEMS.register("cosmic_ingot",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -1,7 +1,7 @@
 package net.thezaltren.stargenia;
 
 import net.thezaltren.stargenia.block.ModBlocks;
-import net.thezaltren.stargenia.item.ModCreativeModeTabs;
+import net.thezaltren.stargenia.creative.ModCreativeModeTabs;
 import net.thezaltren.stargenia.item.ModItems;
 import org.slf4j.Logger;
 

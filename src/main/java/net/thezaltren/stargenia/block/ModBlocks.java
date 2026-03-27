@@ -25,6 +25,10 @@ public class ModBlocks {
 public static final DeferredBlock<Block> COSMIC_STAR_BLOCK = registerBlock("cosmic_star_block",
         () -> new Block(BlockBehaviour.Properties.of()
                 .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final DeferredBlock<Block> COSMIC_STAR_BLOCK_X1 = registerBlock("cosmic_star_block_x1",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
 
     //Create and Registers Blocks
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

@@ -1,9 +1,15 @@
 {
 
   "item.stargenia.cosmic_star": "§1§dCosmic Star",
+  "item.stargenia.cosmic_ingot": "Cosmic Ingot",
 
   "block.stargenia.cosmic_star_block": "Cosmic Star Block",
+  "block.stargenia.cosmic_star_block_x1": "Cosmic Star Block x1",
 
-  "creativetab.stargenia.stargenia_tab": "Stargenia"
+  "creativetab.stargenia.stargenia_tab": "Stargenia",
+  "creativetab.stargenia.stargenia_materials": "Stargenia:Materials",
+  "creativetab.stargenia.stargenia_blocks": "Stargenia:Blocks",
+  "creativetab.stargenia.stargenia_stars": "Stargenia:Stars"
+
 
 }
