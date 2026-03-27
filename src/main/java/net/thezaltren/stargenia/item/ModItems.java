@@ -15,6 +15,8 @@ public class ModItems {
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> COSMIC_INGOT = ITEMS.register("cosmic_ingot",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COSMIC_COIN = ITEMS.register("cosmic_coin",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

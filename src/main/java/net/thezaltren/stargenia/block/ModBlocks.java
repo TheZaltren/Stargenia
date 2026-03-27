@@ -22,12 +22,39 @@ public class ModBlocks {
     //Must Create a public static final DeferredItem<Item> for each block added to the mod
     //After DeferredItem<Item> the name of the block needs to match with the png name
     // Inorder for the texture to be applied correctly to the block
-public static final DeferredBlock<Block> COSMIC_STAR_BLOCK = registerBlock("cosmic_star_block",
-        () -> new Block(BlockBehaviour.Properties.of()
-                .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
+    //Cosmic Star Section:
+    public static final DeferredBlock<Block> COSMIC_STAR_BLOCK = registerBlock("cosmic_star_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
     public static final DeferredBlock<Block> COSMIC_STAR_BLOCK_X1 = registerBlock("cosmic_star_block_x1",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final DeferredBlock<Block> COSMIC_STAR_BLOCK_X2 = registerBlock("cosmic_star_block_x2",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final DeferredBlock<Block> COSMIC_STAR_BLOCK_X3 = registerBlock("cosmic_star_block_x3",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final DeferredBlock<Block> COSMIC_STAR_BLOCK_X4 = registerBlock("cosmic_star_block_x4",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final DeferredBlock<Block> COSMIC_STAR_BLOCK_X5 = registerBlock("cosmic_star_block_x5",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final DeferredBlock<Block> COSMIC_STAR_BLOCK_X6 = registerBlock("cosmic_star_block_x6",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final DeferredBlock<Block> COSMIC_STAR_BLOCK_X7 = registerBlock("cosmic_star_block_x7",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final DeferredBlock<Block> COSMIC_STAR_BLOCK_X8 = registerBlock("cosmic_star_block_x8",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final DeferredBlock<Block> COSMIC_STAR_BLOCK_X9 = registerBlock("cosmic_star_block_x9",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
 
 
     //Create and Registers Blocks

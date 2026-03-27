@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "stargenia:block/cosmic_star_block_x3"
+  }
+}

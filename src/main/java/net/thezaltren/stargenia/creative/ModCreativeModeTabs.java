@@ -19,14 +19,12 @@ public class ModCreativeModeTabs {
 
     //Stargenia Creative Tab
     public static final Supplier<CreativeModeTab> STARGENIA_TAB = CREATIVE_MODE_TAB.register("stargenia_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.COSMIC_STAR.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.COSMIC_COIN.get()))
                     .title(Component.translatable("creativetab.stargenia.stargenia_tab"))
                     .displayItems(((itemDisplayParameters, output) -> {
                         //output.accept(ModItems.(Name of the Item); To add to the Stargenia Creative Tab
                         //This is where all misc items and blocks will go
-                       output.accept(ModItems.COSMIC_STAR);
-                        output.accept(ModBlocks.COSMIC_STAR_BLOCK);
-                        output.accept(ModBlocks.COSMIC_STAR_BLOCK_X1);
+                       output.accept(ModItems.COSMIC_COIN);
                     })).build());
     //Stargenia Materials Creative Tab
     public static final Supplier<CreativeModeTab> STARGENIA_MATERIALS = CREATIVE_MODE_TAB.register("stargenia_materials",
@@ -45,6 +43,16 @@ public class ModCreativeModeTabs {
                     .displayItems(((itemDisplayParameters, output) -> {
                         //output.accept(ModBlocks.(Name of the Item); To add to the Stargenia Blocks Creative Tab
                         output.accept(ModBlocks.COSMIC_STAR_BLOCK);
+                        output.accept(ModBlocks.COSMIC_STAR_BLOCK_X1);
+                        output.accept(ModBlocks.COSMIC_STAR_BLOCK_X2);
+                        output.accept(ModBlocks.COSMIC_STAR_BLOCK_X3);
+                        output.accept(ModBlocks.COSMIC_STAR_BLOCK_X4);
+                        output.accept(ModBlocks.COSMIC_STAR_BLOCK_X5);
+                        output.accept(ModBlocks.COSMIC_STAR_BLOCK_X6);
+                        output.accept(ModBlocks.COSMIC_STAR_BLOCK_X7);
+                        output.accept(ModBlocks.COSMIC_STAR_BLOCK_X8);
+                        output.accept(ModBlocks.COSMIC_STAR_BLOCK_X9);
+
                     })).build());
     //Stargenia Stars Creative Tab
     public static final Supplier<CreativeModeTab> STARGENIA_STARS = CREATIVE_MODE_TAB.register("stargenia_stars",

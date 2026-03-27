@@ -2,9 +2,18 @@
 
   "item.stargenia.cosmic_star": "§1§dCosmic Star",
   "item.stargenia.cosmic_ingot": "Cosmic Ingot",
+  "item.stargenia.cosmic_coin": "Cosmic Coin",
 
   "block.stargenia.cosmic_star_block": "Cosmic Star Block",
   "block.stargenia.cosmic_star_block_x1": "Cosmic Star Block x1",
+  "block.stargenia.cosmic_star_block_x2": "Cosmic Star Block x2",
+  "block.stargenia.cosmic_star_block_x3": "Cosmic Star Block x3",
+  "block.stargenia.cosmic_star_block_x4": "Cosmic Star Block x4",
+  "block.stargenia.cosmic_star_block_x5": "Cosmic Star Block x5",
+  "block.stargenia.cosmic_star_block_x6": "Cosmic Star Block x6",
+  "block.stargenia.cosmic_star_block_x7": "Cosmic Star Block x7",
+  "block.stargenia.cosmic_star_block_x8": "Cosmic Star Block x8",
+  "block.stargenia.cosmic_star_block_x9": "Cosmic Star Block x9",
 
   "creativetab.stargenia.stargenia_tab": "Stargenia",
   "creativetab.stargenia.stargenia_materials": "Stargenia:Materials",
