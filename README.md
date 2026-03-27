@@ -2,6 +2,8 @@
 
 Stargenia is a cosmic-themed Minecraft mod for **NeoForge 1.21.1** that introduces new materials, blocks, and progression systems inspired by the power of the cosmos.
 
+## Backporting
+Stargenia will be ported to 1.20.1 forge once the mod has most of the content in it.
 ## Features
 
 * Cosmic themed materials
