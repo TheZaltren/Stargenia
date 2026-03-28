@@ -1,6 +1,11 @@
 {
 
   "item.stargenia.cosmic_star": "§1§dCosmic Star",
+  "item.stargenia.cosmic_shard": "Cosmic Shard",
+  "item.stargenia.cosmic_fragment": "Cosmic Fragment",
+  "item.stargenia.cosmic_core": "Cosmic Core",
+
+
   "item.stargenia.cosmic_ingot": "Cosmic Ingot",
   "item.stargenia.cosmic_coin": "Cosmic Coin",
 

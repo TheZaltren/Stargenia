@@ -11,6 +11,12 @@ public class ModItems {
     //Must Create an public static final DeferredItem<Item> for each item added to the mod
     //After DeferredItem<Item> the name of the item needs to match with the png name
     // Inorder for the texture to be applied correctly to the item
+    public static final DeferredItem<Item> COSMIC_FRAGMENT = ITEMS.register("cosmic_fragment",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COSMIC_SHARD = ITEMS.register("cosmic_shard",
+            ()-> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COSMIC_CORE = ITEMS.register("cosmic_core",
+            ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> COSMIC_STAR = ITEMS.register("cosmic_star",
             ()-> new Item(new Item.Properties()));
     public static final DeferredItem<Item> COSMIC_INGOT = ITEMS.register("cosmic_ingot",

@@ -25,6 +25,11 @@ public class ModCreativeModeTabs {
                         //output.accept(ModItems.(Name of the Item); To add to the Stargenia Creative Tab
                         //This is where all misc items and blocks will go
                        output.accept(ModItems.COSMIC_COIN);
+                        output.accept(ModItems.COSMIC_FRAGMENT);
+                        output.accept(ModItems.COSMIC_SHARD);
+                        output.accept(ModItems.COSMIC_CORE);
+
+
                     })).build());
     //Stargenia Materials Creative Tab
     public static final Supplier<CreativeModeTab> STARGENIA_MATERIALS = CREATIVE_MODE_TAB.register("stargenia_materials",
